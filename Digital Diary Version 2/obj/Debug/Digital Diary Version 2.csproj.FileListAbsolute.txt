@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\bin\Debug\Digital Diary Version 2.exe.config
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\bin\Debug\Digital Diary Version 2.exe
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\bin\Debug\Digital Diary Version 2.pdb
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\obj\Debug\Digital Diary Version 2.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\obj\Debug\Digital_Diary_Version_2.Properties.Resources.resources
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\obj\Debug\Digital Diary Version 2.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\obj\Debug\Digital Diary Version 2.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\obj\Debug\Digital Diary Version 2.exe
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\obj\Debug\Digital Diary Version 2.pdb
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\obj\Debug\Digital_Diary_Version_2.Login.resources
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\obj\Debug\Digital_Diary_Version_2.SignUp.resources
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\obj\Debug\Digital_Diary_Version_2.Event.resources
+C:\Users\USER\source\repos\Digital Diary Version 2\Digital Diary Version 2\obj\Debug\Digital_Diary_Version_2.Home.resources
