@@ -184,6 +184,7 @@ namespace Digital_Diary_Version_2
             this.label2.Size = new System.Drawing.Size(47, 17);
             this.label2.TabIndex = 18;
             this.label2.Text = "Log In";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // SignUp
             // 
@@ -208,7 +209,6 @@ namespace Digital_Diary_Version_2
             this.Name = "SignUp";
             this.Text = "SignUp";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SignUp_FormClosing);
-            this.Load += new System.EventHandler(this.SignUp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

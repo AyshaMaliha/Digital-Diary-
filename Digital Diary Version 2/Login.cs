@@ -17,18 +17,30 @@ namespace Digital_Diary_Version_2
             InitializeComponent();
         }
 
-        private void LoginUserlabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void loginButton_Click(object sender, EventArgs e)
         {
+            if (userNameTextBox.Text == "" || passwordTextBox.Text == "")
+            {
+                MessageBox.Show("Username or Password can not be empty");
+            }
+            else
+            {
+                UserLogin userService = new UserLogin();
+                bool result = userService.LoginValidation(userNameTextBox.Text, passwordTextBox.Text);
+                if (result)
+                {
+                    Home home = new Home();
+                    home.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid Username or Password");
+                }
+            }
+
+
+
 
         }
 
@@ -36,6 +48,13 @@ namespace Digital_Diary_Version_2
         {
             Application.Exit();
 
+        }
+
+        private void signUpLabel_Click(object sender, EventArgs e)
+        {
+            SignUp sign = new SignUp();
+            sign.Show();
+            this.Hide();
         }
     }
 }

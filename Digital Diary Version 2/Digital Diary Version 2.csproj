@@ -75,6 +75,7 @@
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
     <Compile Include="UserDataAccess.cs" />
+    <Compile Include="UserLogin.cs" />
     <EmbeddedResource Include="Event.resx">
       <DependentUpon>Event.cs</DependentUpon>
     </EmbeddedResource>

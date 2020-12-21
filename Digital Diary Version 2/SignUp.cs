@@ -16,15 +16,16 @@ namespace Digital_Diary_Version_2
         {
             InitializeComponent();
         }
-
-        private void SignUp_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void SignUp_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
         }
     }
 }
