@@ -54,6 +54,9 @@
     <Compile Include="Event.Designer.cs">
       <DependentUpon>Event.cs</DependentUpon>
     </Compile>
+    <Compile Include="EventDataAccess.cs" />
+    <Compile Include="EventEn.cs" />
+    <Compile Include="EventServices.cs" />
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +77,7 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
     <Compile Include="UserDataAccess.cs" />
     <Compile Include="UserLogin.cs" />
     <EmbeddedResource Include="Event.resx">

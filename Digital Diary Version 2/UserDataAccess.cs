@@ -25,5 +25,11 @@ namespace Digital_Diary_Version_2
             }
             return false;
         }
+        /*public int InsertCategory(User user)
+        {
+            string sql = "INSERT INTO Categories(CategoryName) VALUES('" + user.CategoryName + "')";
+            int result = this.dataAccess.ExecuteQuery(sql);
+            return result;
+        }*/
     }
 }
